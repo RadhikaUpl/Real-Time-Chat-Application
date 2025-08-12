@@ -1,0 +1,62 @@
+############################
+# React Frontend Ignores
+############################
+
+# dependencies
+frontend/node_modules/
+
+# production build
+frontend/build/
+frontend/dist/
+
+# misc
+frontend/.env
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+############################
+# Spring Boot Backend Ignores
+############################
+
+# Maven target directory
+backend/target/
+
+# Gradle build directory
+backend/build/
+
+# Logs
+backend/*.log
+backend/logs/
+
+# Spring Boot config
+backend/.env
+backend/application-*.yml
+backend/application-*.properties
+
+# IDE/Editor files
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
+
+############################
+# Common Ignores
+############################
+
+# IDE folders
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# General logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
