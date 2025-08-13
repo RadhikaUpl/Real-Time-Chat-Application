@@ -22,7 +22,7 @@ Built with **React.js** for the frontend and **Spring Boot** (with WebSockets, S
 **Backend:**
 - Spring Boot
 - WebSockets with SockJS & STOMP
-- MySQL Database
+- MongoDB Database
 
 ---
 
